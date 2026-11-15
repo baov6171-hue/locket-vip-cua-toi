@@ -1,0 +1,7 @@
+[General]
+name = Locket Gold VIP
+desc = Mở khóa Gold, Photobooth, AI Filter
+
+[Rule]
+URL-REGEX,^https://api.locket.com/,REJECT
+URL-REGEX,^https://.*locket.*,SCRIPT,script-path=https://baov6171-hue.github.io/locket-vip-cua-toi/locket_gold.js
